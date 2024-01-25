@@ -11,7 +11,7 @@ struct ContentView: View {
     
     
     @State private var movies = [Movie]()
-    @State private var title = "List to Watch"
+    @State private var title = "Movies to Watch"
     let dataService = DataService()
     
     
